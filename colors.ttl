@@ -22,5 +22,5 @@ color:b0002 a skos:Concept ;
 color:b0003 a skos:Concept ;
     skos:prefLabel "light blue"@en ;
     skos:altLabel "powder blue"@en ;
-    skos:broader color:b0002
+    skos:broader color:b0002 ;
     skos:inScheme color: .
