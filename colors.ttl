@@ -13,6 +13,7 @@ color: a skos:ConceptScheme ;
 color:b0001 a skos:Concept ;
     skos:prefLabel "Violett"@de, "violet"@en ;
     skos:altLabel "lila"@de, "purple"@en ;
+    skos:narrower color:b0004 ;
     skos:topConceptOf color: .
 
 color:b0002 a skos:Concept ;
@@ -24,4 +25,9 @@ color:b0003 a skos:Concept ;
     skos:prefLabel "hellblau"@de, "light blue"@en ;
     skos:altLabel "puderblau"@de, "powder blue"@en ;
     skos:broader color:b0002 ;
+    skos:inScheme color: .
+
+color:b0004 a skos:Concept ;
+    skos:prefLabel "Magenta"@de, "magenta"@en ;
+    skos:broader color:b0001 ;
     skos:inScheme color: .
