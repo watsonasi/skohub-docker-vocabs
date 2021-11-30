@@ -17,6 +17,7 @@ color:b0001 a skos:Concept ;
 
 color:b0002 a skos:Concept ;
     skos:prefLabel "blue"@en ;
+    skos:narrower color:b0003 ;
     skos:topConceptOf color: .
 
 color:b0003 a skos:Concept ;
