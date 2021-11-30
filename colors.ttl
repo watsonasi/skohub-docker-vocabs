@@ -16,12 +16,12 @@ color:b0001 a skos:Concept ;
     skos:topConceptOf color: .
 
 color:b0002 a skos:Concept ;
-    skos:prefLabel "blue"@en ;
+    skos:prefLabel "Blau"@de, "blue"@en ;
     skos:narrower color:b0003 ;
     skos:topConceptOf color: .
 
 color:b0003 a skos:Concept ;
-    skos:prefLabel "light blue"@en ;
-    skos:altLabel "powder blue"@en ;
+    skos:prefLabel "hellblau"@de, "light blue"@en ;
+    skos:altLabel "puderblau"@de, "powder blue"@en ;
     skos:broader color:b0002 ;
     skos:inScheme color: .
